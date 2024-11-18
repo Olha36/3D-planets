@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Mercury",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg"
+    },
+    {
+        "name": "Venus",
+        "image": "https://cdn.mos.cms.futurecdn.net/RifjtkFLBEFgzkZqWEh69P-1200-80.jpg.webp"
+    },
+    {
+        "name": "Earth",
+        "image": "https://wp.en.aleteia.org/wp-content/uploads/sites/2/2017/05/web3-planet-earth-space-nasa-space-stars-sun-shutterstock_526255060-shutterstock.jpg?resize=620,350&q=75"
+    },
+    {
+        "name": "Mars",
+        "image": "https://miro.medium.com/v2/resize:fit:2560/format:webp/1*2n6yiV0A8p8Lyk55gId23Q.jpeg"
+    },
+    {
+        "name": "Jupiter",
+        "image": "https://images.squarespace-cdn.com/content/v1/5fa5ec79661ee904d2973ca0/1678728506149-923IVNG929E5AKOYXAPM/jupiter.jpg"
+    },
+    {
+        "name": "Saturn",
+        "image": "https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2024/06/Saturn1.jpeg?size=*:900"
+    },
+    {
+        "name": "Uranus",
+        "image": "https://ychef.files.bbci.co.uk/1280x720/p0257vk5.jpg"
+    },
+    {
+        "name": "Neptune",
+        "image": "https://vjloopsfarm.com/wp-content/uploads/2021/03/Beautiful-View-of-Blue-Planet-Neptune-from-Space-Timelapse-hiphp8-1920_001.jpg"
+    }
+]
