@@ -5,13 +5,19 @@ import planets from './planets.json';
 interface Planet {
   name: string;
   image: string;
+  alt: string;
+}
+
+interface planetDetails {
+  radius: string;
+  distance_light_year: number;
 }
 
 const App: React.FC = () => {
-  const [planetData, setPlanetData] = useState<Planet[]>([]);
+  const [planetData, setPlanetData] = useState<(Planet & planetDetails)[]>([]);
 
   useEffect(() => {
-    setPlanetData(planets);
+    // setPlanetData(planets); // Removed as it sets incomplete data
 
     const fetchPlanetData = async () => {
       try {
@@ -57,6 +63,9 @@ const App: React.FC = () => {
             }
           >
             <h3>{planet.name}</h3>
+            <img src={planet.image} alt={planet.alt} />
+            <p>{planet.radius}</p>
+            <p>Distance from Earth: {planet.distance_light_year} light years</p>
           </span>
         ))}
       </div>
