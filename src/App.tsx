@@ -33,7 +33,7 @@ const App: React.FC = () => {
         const mergedData = planets.map((planet, index) => ({
           ...planet,
           ...planetResults[index][0],
-        }))
+        }));
         setPlanetData(mergedData);
       } catch (error: any) {
         throw new Error(error);
@@ -49,9 +49,11 @@ const App: React.FC = () => {
           <span
             key={index}
             className='planet'
-            style={{
-              '--i': index + 1,
-            } as React.CSSProperties}
+            style={
+              {
+                '--i': index + 1,
+              } as React.CSSProperties
+            }
           >
             <h3>{planet.name}</h3>
           </span>
